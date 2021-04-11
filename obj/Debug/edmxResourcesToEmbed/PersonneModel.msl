@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="exoArpilabeModelStoreContainer" CdmEntityContainer="exoArpilabeEntities">
+    <EntitySetMapping Name="personne">
+      <EntityTypeMapping TypeName="exoArpilabeModel.personne">
+        <MappingFragment StoreEntitySet="personne">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="prenom" ColumnName="prenom" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="telephone" ColumnName="telephone" />
+          <ScalarProperty Name="note" ColumnName="note" />
+          <ScalarProperty Name="departement" ColumnName="departement" />
+          <ScalarProperty Name="dateDeNaissance" ColumnName="dateDeNaissance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
